@@ -1,0 +1,3 @@
+USAGE: /murat_altuntas_111044043 directoryName -g string -l lineNumber
+OR
+USAGE: /murat_altuntas_111044043 directoryName -l lineNumber -g string

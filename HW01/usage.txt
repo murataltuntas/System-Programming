@@ -1,0 +1,3 @@
+programın kullanım şekli
+
+$   ./111044043_Murat_ALTUNTAS - fileName "string"

@@ -1,0 +1,19 @@
+Serverin calistirilma sekli. (NOT: once server calistirilmali.)
+
+gcc -c server.c
+gcc -o server server.o -lm
+./server "Mathematical function(string)" <Time#(nanosec)>
+
+
+Turevin calistirilma sekli.
+
+gcc -c turev.c
+gcc -o turev turev.o
+./turev <serverPid#> <Time#(milisec)>
+
+
+Integralin calistirilma sekli.
+
+gcc -c integral.c
+gcc -o integral integral.o
+./integral <serverPid#> <Time#(milisec)>

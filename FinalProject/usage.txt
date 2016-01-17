@@ -1,0 +1,20 @@
+Dosyalari derlemek icin
+makefilein calistirilmasi yeterli olacaktir.
+(Konsola make yazmaniz yeterlidir.)
+
+dosyalarin calistirilma sirasi.
+
+-> MMM
+-> VM
+-> ITM
+
+Calistirilma sekilleri.
+
+Console 1:
+./MMM
+
+Console 2:
+./VM <IP of MMM>
+
+Console 3:
+./ITM <# Matris Size> <# total matrices> <# number of threads> <Trace> <IP of MMM> <IP of VM>

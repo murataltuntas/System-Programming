@@ -1,0 +1,46 @@
+localMServerin derlenme ve calistirilma sekli
+
+    Derleme
+    
+	gcc -c localMServer.c
+	gcc -o localMServer localMServer.o -lm -pthread
+	
+	Calistirma
+	
+	./localMServer <buffer size> <#ofThreads> <update time>
+	
+	Example:
+	
+	./localMServer 250 100 100
+	
+	
+	parsing islemi pow , sqrt , sin , cos icin gecerlidir.
+	Kullanim sekilleri.
+	example:
+	
+	pow(1-x,1/3)
+	
+	sqrt(1-x)
+	
+	sin(1-x)
+	
+	cos(1-x)
+	
+	
+	parantez icindeki ifadeler su sekilde olabilir:
+	
+        * tek bir operator kullanilmalidir. ( - , + , * , / )
+        * 'x'  li ifade yalniz basina yazilmalidir.
+        * sayi olan kisim pozitif sayi olmalidir, her sayi olabilir.
+        
+            (x,operator,sayi)
+            
+                  yada
+                  
+            (sayi,operator,x)
+            
+            seklinde olmali.
+
+            example:
+                    (1-x) , (x+3.2) , (x/2) ,(4*x) gibi...   
+
